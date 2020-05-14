@@ -1,0 +1,424 @@
+Tienda Online 2017 Cap 2: Preparación entorno de trabajo
+Cap 2: Preparación del entorno de trabajo. Descarga de la plantilla que utilizaremos y configuración del sitio inicial en dreamweaver.
+
+Tienda Online 2017 Cap 3: Creación de una plantilla para Dreamweaver
+Cap 3: Creamos la plantilla que nos servirá para el resto del desarrollo de la página, utilizando includes de PHP. Separamos bloques de código para simplificar su manejo.
+
+Tienda Online 2017 Cap 4: Primer archivo PHP y creación de base de datos.
+Cap 4: Completamos la creación de la primera página de nuestra plantilla. Creamos la base de datos y la tabla de productos que albergará los productos de nuestra tienda.
+
+Tienda Online 2017 Cap 5: Modificando la base de datos y creación de conexión.
+Cap 5: Modificamos la tabla de producto, exportamos la base de datos y creamos nuestro primer fragmento para conectarnos a MySQL con PHP
+
+Tienda Online 2017 Cap 6: Realizamos la primera consulta a la base de datos.
+Cap 6: Obtenemos el primer dato en nuestra página Web de la tabla de productos. Resolvemos los errores de PHP que se nos muestran y sacamos el nombre del producto.
+
+Tienda Online 2017 Cap 7: Comenzamos con la parte de administración de la tienda
+Cap 7: Creamos la tabla que almacenará los usuarios y creamos el espacio de trabajo para la parte de administración de la tienda para poder gestionarla. Los usuarios tendrán diferentes niveles de acceso a la parte de administración
+
+Tienda Online 2017 Cap 8: Creamos el código para el acceso del usuario administrador
+Cap 8: Actualizamos la tabla de usuario y creamos el código que nos ayudará a validar si un usuario puede acceder o no a la parte de administración de la página.
+
+Tienda Online 2017 Cap 9: Creamos la plantilla para crear las páginas de administración
+Cap 9: Con nuestro código de acceso generado, necesitamos un administrador para poder crear usuarios. Para ello creamos una plantilla que nos servirá para crear el resto de páginas de la parte de administración
+
+Tienda Online 2017 Cap 10: Extracción de datos de la tabla de usuarios de MySQL
+Cap 10: Utilizamos el código que habíamos realizado para sacar los datos de los productos, pero esta vez para los usuarios de la administración.
+
+Tienda Online 2017 Cap 11: Creación del formulario de inserción de usuarios
+Cap 11: Utilizamos la página que acabamos de crear para construir la página de inserción de usuarios en la base de datos. Para ello cogemos la página de plantilla y eliminamos y añadimos según las necesidades de esa tabla de la base de datos.
+
+Tienda Online 2017 Cap 12: Continuamos con la creación de los campos del formulario
+Cap 12: Completamos los campos necesarios, de texto y desplegables, para introducir al nuevo usuario en la base de datos.
+
+Tienda Online 2017 Cap 13: Finalizamos la inserción de usuarios y mostramos los datos
+Cap 13: Completamos el formulario de inserción de datos y creamos una sencilla función para mostrar el tipo de usuario que tenemos en la base de datos. Con esto creamos la base para desarrollar el resto de páginas.
+
+Tienda Online 2017 Cap 14: Creamos un formulario para realizar búsquedas
+Cap 14: Un formulario para crear búsquedas sobre los usuarios de la base de datos, que nos servirá para el resto de páginas de la administración  de la tienda, e incluso para la parte pública de la web.
+
+Tienda Online 2017 Cap 15: Continuamos con la ceración del formulario de búsqueda
+Cap 15: Mejoramos el diseño de presentación del formulario, que nos servirá para las restantes búsquedas de los siguientes objetos que vamos a utilizar en la base de datos.
+
+Tienda Online 2017 Cap 16: Finalizamos la generación dinámica de consulta y empezamos con la paginación
+Cap 16: Comenzamos con la paginación de los resultados basados en la búsqueda dinámica que acabamos de realizar.
+
+Tienda Online 2017 Cap 17: Completamos el buscador para que nos guarde el último estado
+Cap 17: Hacemos que el buscador nos recoja el último dato en caso de que hayamos utilizado una búsqueda concreta. Comenzamos con la edición de usuario.
+
+Tienda Online 2017 Cap 18: Consulta de selección para detectar el usuario que queremos modificar
+Cap 18: Copiamos la consulta de selección de usuarios para concretarla en el id del usuario que queremos modificar.
+
+Tienda Online 2017 Cap 19: Consulta actualizar para modificar los datos
+Cap 19: Utilizamos los fragmentos para insertar el código que nos permitirá actualizar los datos del usuario, tanto si ponemos la contraseña, como si no.
+
+Tienda Online 2017 Cap 20: Subir una imagen con PHP y barra de progreso
+Cap 20: Utilizamos los fragmentos para insertar el código que podremos utilizar tanto para esta Web que estamos haciendo, como para cualquier otra Web, donde veremos una barra de progreso y  podremos poner limitaciones como el tamaño, el tipo y las dimensiones de los archivos subidos.
+
+
+Tienda Online 2017 Cap 21: Finalizamos el subir imagen en la actualización y comenzamos validación
+Cap 21: Modificamos el Update para poder insertar la imagen en la base de datos y comenzamos con la validación de campos de los formularios para minimizar errores a la hora de introducir o modificar datos
+
+Tienda Online 2017 Cap 22: Finalizamos la validación y creamos una imagen gris para cuando no existe
+Cap 22: Cerramos la validación sencilla y creamos una imagen gris que se mostrará tanto en la lista de usuarios como en el momento de actualizar un usuario.
+
+Tienda Online 2017 Cap 23: Mostramos un error si el usuario ya existe a la hora de darlo de alta
+Cap 23: Con una sencilla función en PHP, comprobamos si el e-mail que estamos insertando no existe en la base de datos para dar paso a la inserción correcta.
+
+Tienda Online 2017 Cap 24: Finalizamos la comprobación del usuario único y comenzamos con la ordenación
+Cap 24: Finalizamos la comprobación del usuario aunque sea el que estamos modificando. Comenzamos con el script que nos ayudará a poner un símbolo para ordenar en los resultados los campos que necesitemos.
+
+Tienda Online 2017 Cap 25: Acabamos de crear la ordenación para los campos que necesitemos
+Cap 25: Con un sencillo script, habilitamos que podamos realizar una búsqueda ordenada sobre los campos que indiquemos. Esta ordenación se podrá utilizar en cualquier consulta a base de datos.
+
+Tienda Online 2017 Cap 26: Generamos un buscador inteligente de más de una palabra, como el de Google
+Cap 26: Con una pequeña modificación del código, vamos a lograr que el buscador de usuarios, que luego usaremos para otras páginas, sea inteligente y pueda buscar no solo por la frase que le indiquemos, si no por cada palabra de forma separada.
+
+Tienda Online 2017 Cap 27: Rematamos el buscador, página de categorías
+Cap 27: Duplicamos la página que tenemos de los usuarios para ir creando la selección de categorías. La haremos de forma muy rápida ya que no tendremos que escribir código prácticamente, solo cambiar detalles.
+
+Tienda Online 2017 Cap 28: Iniciamos la creación de la página de inserción de categorías
+Cap 28: Utilizando el código escrito anteriormente, vamos a generar la página de añadir categorías de hasta 3 niveles, aunque de forma sencilla se pueden agregar nuevos niveles si se necesita.
+
+Tienda Online 2017 Cap 29: Creamos las funciones para las subcategorías
+Cap 29: Usamos el archivo de funciones para crear las funciones que iremos utilizando para obtener las categorías, subcategorías y subsubcategorías, para tener en total 3 niveles.
+
+Tienda Online 2017 Cap 30: Edición de categorías y validación de datos
+Cap 30: Creamos más funciones para proceder a la edición de categorías, lo que nos permitirá seleccionar y mover las categorías de sitio según necesitemos.
+
+Tienda Online 2017 Cap 31: Finalizamos actualizar categorías y comenzamos con el acceso a la administración
+Cap 31: Creamos una función más para finalizar el tema de las categorías y vamos a restringir el acceso a la administración finalmente, para que sólo pueda acceder a la administración la persona que decidamos.
+
+Tienda Online 2017 Cap 32: Creamos la página de logout y seguimos trabajando con las restricciones.
+Cap 32: Las restricciones de acceso nos ayudarán a determinar el nivel de usuario que hay que poseer para poder acceder a una sección u otra dentro de la parte de administración
+
+Tienda Online 2017 Cap 33: Finalizamos las restricciones de usuario para acceder a la administración
+Cap 33: Finalizamos la codificación para restringir el acceso por niveles en la parte de administración. Bloqueamos el acceso a los usuarios públicos a la propia administración.
+
+Tienda Online 2017 Cap 34: Mostramos las categorías de la base de datos en el frontend
+Cap 34: Realizamos una consulta para obtener los datos de las categorías de la base de datos y una función para saber si una categoría tiene subcategorías.
+
+Tienda Online 2017 Cap 35: Mostramos hasta las subsubcategorías de nuestra tienda
+Cap 35: Con un par de funciones más, resolvemos el hecho de que algunas subcategorías tengan subcategorías dependientes y las mostramos todas al usuario.
+
+Tienda Online 2017 Cap 36: Generamos la tabla de configuración para controlar la tienda
+Cap 36: A través de la administración controlaremos determinados parámetros de nuestra tienda para poder cambiar el logo, el e-mail y otros datos.
+
+Tienda Online 2017 Cap 37: Cambiamos detalles de nuestro frontend de tienda
+Cap 37: Con la tabla de configuración creada, ya podemos manipular determinados aspectos de nuestra Web sin tener que entrar a la codificación o marearnos con el código.
+
+Tienda Online 2017 Cap 38: Mensaje de éxito y creamos las marcas
+Cap 38: Creamos un mensaje de éxito cuando la configuración se ha completado y comenzamos con la creación del apartado de marcas, copiando el código que ya tenemos y editándolo mínimamente.
+
+Tienda Online 2017 Cap 39: Finalización de Insertar y Editar Marcas
+Cap 39: Utilizamos la programación que teníamos desarrollada ya para aprovecharla y desarrollar rápidamente el apartado de marcas.
+
+Tienda Online 2017 Cap 40: Damos la posibilidad de mostrar una zona a nuestra elección
+Cap 40: Haciendo uso de nuestra tabla de configuración, insertamos un checkbox que nos habilitará una zona de la Web o no, según la necesitemos.
+
+Tienda Online 2017 Cap 41: Iniciamos la creación de las páginas de producto
+Cap 41: Utilizando lo que ya tenemos en usuario, creamos la lista de productos de una forma rápida y sencilla. Utilizaremos tinymce para el tema de la descripción de producto para darle mayor impacto a la descripción de los productos
+
+Tienda Online 2017 Cap 42: Creamos la página de agregar producto a la base de datos
+Cap 42: Usamos el formulario anteriormente creado para no tener que escribir código y sólo cambiamos los parámetros necesarios para acoplar el funcionamiento a los productos
+
+Tienda Online 2017 Cap 43: Creamos el campo de marca y categorías para los productos
+Cap 43: Utilizando las funciones que ya hemos realizado anteriormente, las modificamos mínimamente para adaptarlas a las necesidades del tercer subnivel de categoría.
+
+Tienda Online 2017 Cap 44: Añadimos la posibilidad de tener más de una categoría por producto
+Cap 44: Modificamos el código para tener hasta 5 categorías e imágenes por producto, de forma que un producto puede pertenecer a varias categorías con muy poco esfuerzo programático, al igual que con las imágenes.
+
+Tienda Online 2017 Cap 45: Creamos un campo de descripción ampliado para los productos
+Cap 45: Añadimos un campo de descripción con Tinymce, así como un check para determinar si un artículo pertenece a la página principal de la tienda.
+
+Tienda Online 2017 Cap 46: Realizamos el fichero para modificar productos
+Cap 46: Copiaremos el fichero de añadir productos porque nos ahorrará mucho trabajo a la hora de procesar la edición del producto debido a que tiene muchos campos.
+
+Tienda Online 2017 Cap 47: Finalizando con la actualización de productos
+Cap 47: Revisamos el bloque de subir imágenes y creamos las funciones necesarias para procesar los tres niveles de categorías que gestionan cada producto.
+
+Tienda Online 2017 Cap 48: Obtenemos en la página principal los productos
+Cap 48: Creamos una sencilla función para sacar los datos de cada uno de los productos que se alojan en la base de datos y cumplen las condiciones necesarias para verse en la página principal.
+
+Tienda Online 2017 Cap 49: Mejoramos la presentación de la página principal de la tienda
+Cap 49: Subimos imágenes reales del producto y generamos el link de cada producto a su detalle así como el botón de ver detalles del producto.
+
+Tienda Online 2017 Cap 50: Eliminación de categorías de la administración
+Cap 50: Para poder eliminar una categoría, debemos comprobar que no tiene categorías dependientes y que no hay productos cuya categoría es la que queremos eliminar.
+
+Tienda Online 2017 Cap 51: Mostramos los productos dependientes de categoría
+Cap 51: Para facilitar el manejo de la administración, si intentamos eliminar una categoría que tenga productos asociados, mostramos la lista de dichos productos para facilitar su cambio de categoría.
+
+Tienda Online 2017 Cap 52: Creamos la página de detalle de producto
+Cap 52: Basándonos en la plantilla que tenemos, creamos la página de producto donde mostraremos el precio, detalles, imágenes, etc... También obtenernos la cantidad de productos por marca para habilitarlo en el menú de la izquierda.
+
+Tienda Online 2017 Cap 53: Mostramos la imagen principal del producto en caso de que exista
+Cap 53: Utilizando código anteriormente escrito, vamos a mostrar la imagen principal del producto así como la descripción del mismo.
+
+Tienda Online 2017 Cap 54: Mostramos si el producto tiene más imágenes
+Cap 54: Utilizamos la plantilla para mostrar si el producto cuenta con más imágenes y comentamos a trabajar con el panel de tabulación de la parte de abajo donde mostraremos los detalles del producto.
+
+Tienda Online 2017 Cap 55: Manipulamos el slider de imágenes adjuntas
+Cap 55: Tratamos de ajustar el submenú del tabulador con las opciones de producto y consideramos la opción del slider de imágenes adjuntas.
+
+Tienda Online 2017 Cap 56: Finalizamos la sustitución del slider de las imágenes
+Cap 56: Para simplificar el tratamiento de las imágenes, sustituimos el slider en una nueva fila donde organizaremos las imágenes. Añadimos el campo de stock a los productos.
+
+Tienda Online 2017 Cap 57: Iniciamos la gestión de las opciones de producto
+Cap 57: Utilizamos la programación realizada para las categorías para crear el apartado de opciones de producto, que será lo que la persona elija cuando compra dicho producto.
+
+Tienda Online 2017 Cap 58: Seguimos con la creación de las opciones de producto
+Cap 58: Tan solo modificando la programación para las categorías, modificamos rápidamente los formularios relacionados para adaptarlos a las necesidades de las opciones.
+
+Tienda Online 2017 Cap 59: Asignación de opciones a cada producto
+Cap 59: Manipulamos los formularios que ya tenemos para adaptar la actualización de subopciones de cada una de las opciones existentes y comenzamos con la asignación a cada producto.
+
+Tienda Online 2017 Cap 60: Lista de opciones disponibles
+Cap 60: Mostramos la lista de opciones y el estado que tienen de vinculación con respecto al producto que estemos viendo en ese momento.
+
+Tienda Online 2017 Cap 61: Agregamos y eliminamos opciones de producto
+Cap 61: Utilizamos dos pequeños archivos PHP para agregar y eliminar las opciones a cada producto de forma independiente.
+
+Tienda Online 2017 Cap 62: Mostramos las opciones de cada producto para la compra
+Cap 62: Ultimamos el código para la parte de opciones de producto y los mostramos por pantalla para que puedan ser seleccionados.
+
+Tienda Online 2017 Cap 63: Creamos las características de cada producto
+Cap 63: Utilizando el código creado para las opciones, creamos las páginas para las características de cada producto.
+
+Tienda Online 2017 Cap 64: Preparamos las características para los productos
+Cap 64: Las características nos ayudarán a perfilar los productos y efectuar búsquedas concretas sobre ellas, de forma que generaremos un menú dinámico de selección
+
+Tienda Online 2017 Cap 65: Preparamos la asignación de características a productos
+Cap 65: Utilizando parte del código de las opciones, construiremos desplegables para la parte de administración para poder asignar características a cada producto, estas se mostrarán también en la parte frontend de la tienda.
+
+Tienda Online 2017 Cap 66: Insertamos las características en la base de datos
+Cap 66: En la misma página que estamos manipulando, modificamos las consultas para hacer que se eliminen las características que teníamos ya asignadas y así insertamos las nuevas.
+
+Tienda Online 2017 Cap 67: Mostramos las características de producto en la parte frontal de la tienda
+Cap 67: Con un par de funciones, resolvemos la muestra de imágenes en las características de producto, de forma que luego podrán ser empleadas para realizar búsquedas dinámicas de las mismas.
+
+Tienda Online 2017 Cap 68: Hacemos el efecto de lupa sobre la imagen del producto
+Cap 68: Utilizamos un script gratuito para hacer con Jquery el efecto de lupa sobre el producto y un pequeño javascript para que se cambie la imagen principal del producto.
+
+Tienda Online 2017 Cap 69: Hacemos la paginación automática al hacer click o por scroll con Jquery
+Cap 69: Utilizamos un script en Jquery para cargar los productos en función de si hacemos click en un botón para cargar más o si desplazamos hacia abajo, momento en que se cargará el siguiente bloque de resultados.
+
+Tienda Online 2017 Cap 70: Comenzamos con la página de categorías de productos
+Cap 70: Modificamos la página index para que nos sirva para mostrar las categorías actuales. Modificamos el paginador automático y comenzamos a realizar los breadcrumbs para localizar donde estamos cada vez.
+
+Tienda Online 2017 Cap 71: Creamos la función para obtener el Breadcrumb
+Cap 71: Resolvemos el problema con el paginador en Ajax y comenzamos a crear la función que nos devolverá el BreadCrumb en función de la categoría en la que estemos.
+
+Tienda Online 2017 Cap 72: Empezamos a crear la página de marcas de producto
+Cap 72: Reutilizaremos el código ya escrito para economizar en ficheros y en legibilidad de código para obtener los datos de los productos referenciados por marcas.
+
+Tienda Online 2017 Cap 73: Finalizamos la paginación Ajax para los productos con marca
+Cap 73: Utilizamos los mismos ficheros para reutilizarlos cuando modifiquemos las consultas para cuando creemos consultas dinámicas sobre los productos.
+
+Tienda Online 2017 Cap 74: Acceso de usuario a la tienda con login
+Cap 74: Reutilizamos código realizado en la anterior tienda y en la parte de administración para facilitar el acceso al usuario como usuario registrado.
+
+Tienda Online 2017 Cap 75: Preparamos el logout del usuario y comenzamos con la lista de deseos
+Cap 75: Realizaremos el efecto de vuelo a la lista de deseos para el producto que seleccionemos como tal.
+
+Tienda Online 2017 Cap 76: Finalizamos el proceso para que el producto vuele a la lista de deseos
+Cap 76: Con los códigos Jquery proporcionados, se producirá el vuelo del producto (FlyTo) hasta nuestra lista de deseos.
+
+Tienda Online 2017 Cap 77: Mostramos la lista de deseos del usuario
+Cap 77: Creamos la página donde listamos todos los deseos del usuario donde habrá que darle la posibilidad de que elimine esos deseos en un futuro. 
+
+Tienda Online 2017 Cap 78: Damos la posibilidad de eliminar los deseos
+Cap 78: Utilizando un script muy visual, los deseos se eliminarán en tiempo real y sin recargar la página de la lista de deseos de cada usuario.
+
+Tienda Online 2017 Cap 79: Creamos el comparador de productos
+Cap 79: Usando lo ya desarrollado para la lista de deseos, generamos el comparador de productos para un número máximo de 3 productos.
+
+Tienda Online 2017 Cap 80: Habilitamos la página del comparador
+Cap 80: Preparamos la página del comparador de productos y damos la posibilidad al usuario de que elimine los productos a comparar desde la misma página y sin recargar.
+
+Tienda Online 2017 Cap 81: Mostramos las características del comparador de productos
+Cap 81: Con una sencilla función, habilitamos que se muestren las características de hasta tres productos de nuestra base de datos, de forma que podamos compararlos rápidamente.
+
+Tienda Online 2017 Cap 82: Procedimiento de compra de productos
+Cap 82: Iniciamos la parte de la compra de productos que será muy similar a la tienda realizada en el anterior tutorial. Creamos un formulario para el producto y las opciones del mismo.
+
+Tienda Online 2017 Cap 83: Posibilidad de que un usuario no registrado compre
+Cap 83: Seguimos revisando las opciones y funciones para que un usuario que se registró anteriormente importe su carrito temporal y se vuelva su carrito actual.
+
+Tienda Online 2017 Cap 84: Agregamos las opciones de producto al carrito
+Cap 84: Modificamos y creamos las funciones necesarias para comprobar que un producto tiene opciones, y cuál es el valor de dichas opciones.
+
+Tienda Online 2017 Cap 85: Comprobamos si el producto ya estaba en nuestro carrito
+Cap 85: Tenemos que comprobar que si agregamos un producto con las mismas opciones, deberemos agregarlo a la cantidad y no como un producto nuevo, porque creará inconsistencias en el carrito de compra del usuario.
+
+Tienda Online 2017 Cap 86: Devolvemos el valor 0 cuando no coincide con el producto
+Cap 86: Hacemos las funciones necesarias para comprobar si en el carrito existe o no un producto con las opciones ya marcadas.
+
+Tienda Online 2017 Cap 87: Comenzamos con el carrito de compra
+Cap 87: Finalizamos la casuística de los productos que tienen opciones similares para aumentar su cantidad en caso de que ya formen parte de nuestro carrito. Comenzamos con la página del carrito de la compra que intentaremos realizar como una One Page, es decir, tanto la lista de productos como la selección del pago estará en la misma página.
+
+Tienda Online 2017 Cap 88: Listado de los productos del carrito
+Cap 88: Obtenemos con una consulta los productos del carrito que están en el carrito pendiente de la compra para mostrarlos y dar la opción de eliminarlos, etc.
+
+Tienda Online 2017 Cap 89: Obtenemos la información de los productos y los totales
+Cap 89: Utilizando las funciones para los productos, obtenemos la imagen del mismo, el precio, nombre, etc. de cada uno de los productos del carrito, así como los totales.
+
+Tienda Online 2017 Cap 90: Capacidad para agregar y quitar unidades de producto
+Cap 90: Usamos un archivo para hacer las consultas de actualización de cantidades así como la eliminación de los productos del carrito.
+
+Tienda Online 2017 Cap 91: Impuestos y peso de producto
+Cap 91: Añadimos el concepto de peso de producto para calcular el precio de los portes que nos podemos encontrar cuando se realice la compra.
+
+Tienda Online 2017 Cap 92: Finalizamos los impuestos y agregamos los campos nuevos
+Cap 92: Agregamos los campos nuevos en la inserción y edición de producto para luego poder operar con ellos en el carrito de compra.
+
+Tienda Online 2017 Cap 93: Calculamos los impuestos en el carrito de la compra
+Cap 93: Agregamos un par de funciones sencillas para obtener el impuesto activo de cada producto para luego sumarlo al total.
+
+Tienda Online 2017 Cap 94: Mostramos las opciones de producto en el carrito
+Cap 94: Usando la tabla adecuada, mostramos por pantalla los datos de los productos que tienen opciones en la base de datos de forma que nuestro carrito se completa con mucha más información útil para el comprador.
+
+Tienda Online 2017 Cap 95: Zonas de producto para portes
+Cap 95: Creamos una tabla para albergar las zonas de producto, de forma que irán referenciadas a los pesos totales de los carritos.
+
+Tienda Online 2017 Cap 96: Dependencia entre pesos y zonas
+Cap 96: Al igual que con las opciones, creamos un apartado para editar los datos referentes a las zonas para añadir rangos de pesos y incrementos en el coste.
+
+Tienda Online 2017 Cap 97: Finalizamos las zonas y agregamos el precio antiguo
+Cap 97: Añadimos la posibilidad de agregar un precio antiguo al producto para que aparezca tachado en el detalle del producto.
+
+Tienda Online 2017 Cap 98: Mostrar tachado el precio anterior
+Cap 98: Añadimos una sencilla clase CSS para poder mostrar el precio anterior del producto tachado cuando este exista en los datos del producto.
+
+Tienda Online 2017 Cap 99: Gestión de monedas para las compras
+Cap 99: Creamos la tabla para gestionar las diferentes monedas que utilizaremos en la tienda.
+
+Tienda Online 2017 Cap 100: Creamos la gestión de monedas en la administración
+Cap 100: Gestión de monedas en la administración indicando cual es la moneda principal que saldrá por defecto cuando el visitante acceda a la página.
+
+Tienda Online 2017 Cap 101: Detectamos la moneda por defecto de nuestra tienda
+Cap 101: A través de unas funciones dentro de funciones.php, detectamos cual es la moneda que debe posicionarse como principal y cuáles son las que se deben poner como opcionales
+
+Tienda Online 2017 Cap 102: Damos la posibilidad en el desplegable de cambiar la moneda
+Cap 102: Al leer las monedas de la base de datos, debemos obtener el símbolo de la misma y el valor del cambio actual para dicha moneda.
+
+Tienda Online 2017 Cap 103: Mostramos la lista de zonas activas para el cálculo de portes
+Cap 103: Modificamos el archivo carrito.php para poder mostrar las zonas activas que tenemos en la base de datos y que nos ayudarán a calcular el gasto de los portes de la compra.
+
+Tienda Online 2017 Cap 104: Hacemos menú de salto para las zonas
+Cap 104: Calculamos el peso de los productos que tenemos seleccionados en el carrito de la compra para, en función de la zona que tengamos, calcular los costes de los portes.
+
+Tienda Online 2017 Cap 105: Calculamos el coste de los portes según la zona
+Cap 105: Agregamos una función para que nos calcule los precios en función del rango que tenemos en la base de datos y que podemos variar según los transportistas y las zonas.
+
+Tienda Online 2017 Cap 106: Solicitamos los datos de la compra al cliente
+Cap 106: Completamos el formulario para indicar cuáles serán los datos de envío a la persona además de darle la opción de seleccionar la forma de pago que realizará.
+
+Tienda Online 2017 Cap 107: Concretamos las formas de pago disponibles
+Cap 107: Analizamos cómo enviar el pago por transferencia, Paypal y VISA utilizando el código proporcionado en el ejemplo.
+
+Tienda Online 2017 Cap 108: Creamos la función de confirmación de Pago
+Cap 108: Una vez el pago ha sido realizado debemos de efectuar los cambios en el carrito de la persona que realiza la compra.
+
+Tienda Online 2017 Cap 109: simulación del pago por transferencia
+Cap 109: Preparamos los ficheros para efectuar el pago por transferencia bancaria para ver si todos los procedimientos que hemos realizado se cumplen y funcionan bien.
+
+Tienda Online 2017 Cap 110: Solución de los problemas de la función
+Cap 110: Solucionamos el pago por transferencia y añadimos los campos que luego utilizaremos para los tipos de pago que se vayan a utilizar en la tienda.
+
+Tienda Online 2017 Cap 111: Añadimos valores a la tabla de configuración
+Cap 111: Con estos valores, manejar los datos internos de la tienda online será mucho más sencillo para la persona que maneja los datos internos.
+
+Tienda Online 2017 Cap 112: Preparamos para mostrar los tipos de pago que se deseen
+Cap 112: Con la tabla de configuración, recogemos los datos de la tabla seleccionada para obtener los tipos de pago que saldrán por pantalla.
+
+Tienda Online 2017 Cap 113: Completamos las variables del pago y empezamos con URL amigables
+Cap 113: Con la asignación de constantes, completamos los datos que nos servirán para realizar el pago. Comenzamos con la preparación del sistema para URL amigables que participarán de un mejor SEO
+
+Tienda Online 2017 Cap 114: Preparamos un generador de URL con javascript
+Cap 114: Esta función nos ayudará a que el usuario no se deba preocupar si está escribiendo bien o mal las URL amigables a la hora de introducir los productos.
+
+Tienda Online 2017 Cap 115: Generamos la URL amigable para los productos
+Cap 115: Con el script y dos funciones, creamos el espacio que necesitamos para comprobar si el nombre SEO de los productos ya existe en otros productos, en cuyo caso lanzamos un error.
+
+Tienda Online 2017 Cap 116: SEO y htacccess para categorías
+Cap 116: Comenzamos editando las funciones que nos mostraban las categorías para mostrar la ruta con la palabra SEO que hemos seleccionado.
+
+Tienda Online 2017 Cap 117: SEO y htacccess para productos
+Cap 117: Modificamos el generador que tenemos para los productos de links de la página de forma que se conviertan en productos SEO
+
+Tienda Online 2017 Cap 118: Finalizamos el SEO para los productos y las rutas
+Cap 118: Modificamos levemente el contenido de los ficheros para ver categorías y productos con el fin de habilitarlos para SEO.
+
+Tienda Online 2017 Cap 119: Creamos el alta de usuario y comenzamos la publicación de la tienda
+Cap 119: Usamos HTML5 para revisar los campos del formulario y procedemos a crear la Base de datos remota y a subir los ficheros al servidor donde se mostrará nuestra tienda online.
+
+Tienda Online 2017 Cap 120: Completamos la subida de la tienda y la ponemos en marcha
+Cap 120: Realizamos los cambios necesarios para poner la tienda en la carpeta demotienda en vez de en la raíz de la Web. Guardamos un registro de las visitas del usuario a cada producto para utilizarlo en el futuro para marketing online.
+
+Tienda Online 2017 Cap 121: Apartado de productos visitados por el usuario
+Cap 121: Mostramos un slider con los productos que ha visitado el usuario con el fin de recordarle sus últimas visitas a productos.
+
+Tienda Online 2017 Cap 122: Mostramos los productos ya visitados
+Cap 122: Utilizando una variante de la función mostrar producto, simplificamos para obtener una vista sencilla del dato del producto que ha visitado el cliente.
+
+Tienda Online 2017 Cap 123: Trabajamos con las categorías especiales
+Cap 123: Usamos scripts que tenemos ya realizados para obtener las categorías que necesitamos para la página principal.
+
+Tienda Online 2017 Cap 124: Añadimos bloque de productos más vendidos y la gestión del slider
+Cap 124: Usamos las páginas que teníamos anteriormente para crear el apartado de productos más vendidos en la página y un bloque de creación del slider principal de la página con su administración
+
+Tienda Online 2017 Cap 125: Filtro por características de producto
+Cap 125: Modificamos la página de categorías para generar un selector dinámico de características de producto, de forma que podremos filtrar los productos en base a la categoría principal y a las características de cada uno de los productos, obteniendo resultaod dinámicos.
+
+Tienda Online 2017 Cap 126: Creamos los microdatos del producto y el bloque de compartir.
+Cap 126: Utilizando los datos de la página schema.org completamos los datos básicos de los productos y con Addthis, utilizamos su editor para insertar el conector con Facebbok, Whatsapp, etc.
+
+Tienda Online 2017 Cap 127: Creamos formulario de opiniones para los productos
+Cap 127: Creamos la tabla en la base de datos para obtener esta información de los productos y poder aprobarla antes de que se publique.
+
+Tienda Online 2017 Cap 128: Opiniones por usuarios registrados y visitantes
+Cap 128: Damos la posibilidad de que un usuario opine sin estar registrado y sin haber accedido al sistema. En cualqueir caso desde la administración valoraremos cada comentario antes de publicarlo.
+
+Tienda Online 2017 Cap 129: Mostramos las opiniones de los usuarios en cada producto
+Cap 129: Utilizamos los scripts anteriores para rápidamente obtener los datos de los que han realizado comentarios en los productos.
+
+Tienda Online 2017 Cap 130: Gestión de las opiniones de cada usuario
+Cap 130: Damos la posibilidad de aprobar las opiniones de cada usuario sobre cada producto, incluídas las opiniones de los usuarios anónimos.
+
+Tienda Online 2017 Cap 131: Mostramos las opiniones del producto
+Cap 131: Generamos un pequeño avisador de nuevos comentarios de producto y mostramos la cantidad de comentarios de cada producto con una llamada a una sencilla función
+
+Tienda Online 2017 Cap 132: Descuento global de precio para la tienda
+Cap 132: Usamos nuestra tabla de configuración para poder poner un descuento global a la página y a todos los productos, bien sea por fecha señalada, o Navidad o cualquier evento que se considere.
+
+Tienda Online 2017 Cap 133: Habilitamos el pedido telefónico
+Cap 133: Damos la posibilidad desde la adminsitración de acceder con cualquier usuario para comprar en la tienda los productos que se indiquen de forma telefónica y poder cerrar ventas por varios comerciales de forma independiente.
+
+Tienda Online 2017 Cap 134: Apartado para precios según cantidad
+Cap 134: Con las tablas de precio por grupo creadas, sacaremos por pantalla la información de aquellos productos que tengan asociado un descuento en funcion de la cantidad que se seleccione para comprar.
+
+Tienda Online 2017 Cap 135: Cambiamos el precio del producto en el carrito
+Cap 135: En funcion de la cantidad de productos, realizamos una función que nos devuelve el rango de factores en los que está embebida la cantidad de productos que se compran.
+
+Tienda Online 2017 Cap 136: Cambiamos el impuesto en función de la cantidad y comenzamos con los idiomas
+Cap 136: Creamos una tabla para aplicar hasta 4 idiomas a nuestra tienda y añadimos en la gestión el apartado de los idiomas.
+
+Tienda Online 2017 Cap 137: Mostramos los idiomas disponibles
+Cap 137: Finalizamos el formulario para actualizar hasta los 4 idiomas y explicamos la mecánica a partir de la cual seguirá el tutorial.
+
+Tienda Online 2017 Cap 138: Multiidioma de la tienda online en PHP
+Cap 138: Modificamos los archivos necesarios así como la base de datos para adaptar todo el contenido de la Web a multiidioma.
+
+Tienda Online 2017 Cap 139: Finalizamos el pago por Paypal
+Cap 139: Ya en el servidor real, efectuamos las pruebas para finalizar el pago por Paypal, primero en el Sandbox y luego podemos cambiarlo al usuario real.
+
+Tienda Online 2017 Cap 140: Envío de correos con la compra
+Cap 140: Creamos las funciones para generar los correos con las compras de los usuarios, agregamos campos a algunas de las tablas según vamos necesitando la información para enviar.
+
+Tienda Online 2017 Cap 141: Búscador de pedidos
+Cap 141: Organizamos el menú de administración, generación de páginas de edición de pedidos y solución de errores menores.
+
+Tienda Online 2017 Cap 142: Recuperación de contraseña, pie de página dinámico...
+Cap 141: Scripts para recuperar la contraseña, para mantener logueado al usuario si así lo selecciona y añadimos las estadísticas del producto por meses, para ver cuantas visitas tiene cada uno.
+

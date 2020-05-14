@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="AbstractFrameDecorator.php" server="160.153.78.5" local="131938530528902634" remote="131838405600000000" Dst="0" />
+<file name="Block.php" server="160.153.78.5" local="131938530528962416" remote="131838405600000000" Dst="0" />
+<file name="Image.php" server="160.153.78.5" local="131938530532203743" remote="131838405600000000" Dst="0" />
+<file name="ListBullet.php" server="160.153.78.5" local="131938530537689542" remote="131838405600000000" Dst="0" />
+<file name="Inline.php" server="160.153.78.5" local="131938530537788815" remote="131838405600000000" Dst="0" />
+<file name="ListBulletImage.php" server="160.153.78.5" local="131938530540332197" remote="131838405600000000" Dst="0" />
+<file name="NullFrameDecorator.php" server="160.153.78.5" local="131938530545907618" remote="131838405600000000" Dst="0" />
+<file name="Page.php" server="160.153.78.5" local="131938530547742192" remote="131838405600000000" Dst="0" />
+<file name="Table.php" server="160.153.78.5" local="131938530548610238" remote="131838405600000000" Dst="0" />
+<file name="TableCell.php" server="160.153.78.5" local="131938530553666540" remote="131838405600000000" Dst="0" />
+<file name="TableRow.php" server="160.153.78.5" local="131938530554943136" remote="131838405600000000" Dst="0" />
+<file name="TableRowGroup.php" server="160.153.78.5" local="131938530556399035" remote="131838405600000000" Dst="0" />
+<file name="Text.php" server="160.153.78.5" local="131938530561655350" remote="131838405600000000" Dst="0" />
+</dwsync>

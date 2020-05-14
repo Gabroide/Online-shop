@@ -1,0 +1,23 @@
+
+# HTID:13946140: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+php_value display_errors 1
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:13946140:
+
+RewriteBase /demotienda/
+
+Options +FollowSymlinks
+RewriteEngine on
+rewritecond %{http_host} ^pciexpress.com [nc]
+rewriterule ^(.*)$ http://www.www.pciexpress.com/$1 [r=301,nc]
+
+RewriteRule ^_admin/.*$ - [PT]
+
+#PRODUCTOS
+RewriteRule ^(.+)/(.+).html$ producto-detalle.php?prod=$2
+RewriteRule ^(.+)/(.+)/(.+).html$ producto-detalle.php?prod=$3
+RewriteRule ^(.+)/(.+)/(.+)/(.+).html$ producto-detalle.php?prod=$4
+
+#CATEGORIAS
+RewriteRule ^(.+)/$ categoria.php?cat=$1
+RewriteRule ^(.+)/(.+)/$ categoria.php?cat=$2
+RewriteRule ^(.+)/(.+)/(.+)/$ categoria.php?cat=$3

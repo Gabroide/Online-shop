@@ -1,0 +1,1 @@
+<?php include("includes/pie/"._idiomaactual.".php"); ?>

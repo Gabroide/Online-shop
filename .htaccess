@@ -1,0 +1,18 @@
+RewriteBase /tienda2017/
+
+Options +FollowSymlinks
+RewriteEngine on
+rewritecond %{http_host} ^tuhipertiendaonline.com [nc]
+rewriterule ^(.*)$ http://www.tuhipertiendaonline.com/$1 [r=301,nc]
+
+RewriteRule ^_admin/.*$ - [PT]
+
+#PRODUCTOS
+RewriteRule ^(.+)/(.+).html$ producto-detalle.php?prod=$2
+RewriteRule ^(.+)/(.+)/(.+).html$ producto-detalle.php?prod=$3
+RewriteRule ^(.+)/(.+)/(.+)/(.+).html$ producto-detalle.php?prod=$4
+
+#CATEGORIAS
+RewriteRule ^(.+)/$ categoria.php?cat=$1
+RewriteRule ^(.+)/(.+)/$ categoria.php?cat=$2
+RewriteRule ^(.+)/(.+)/(.+)/$ categoria.php?cat=$3

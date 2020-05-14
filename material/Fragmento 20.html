@@ -1,0 +1,36 @@
+if (isset($_GET['idioma']))
+{
+		$_SESSION["idiomaactual"] = $_GET['idioma'];
+		define('_idiomaactual', $_GET['idioma']);
+}
+
+if ((!isset($_SESSION['idiomaactual'])) || ($_SESSION['idiomaactual']=="")) 
+	{
+	  $_SESSION['idiomaactual'] = 1;
+		define('_idiomaactual', $_SESSION['idiomaactual']);
+    }
+if (isset($_SESSION['idiomaactual'])) 
+{
+	if (!defined('_idiomaactual')) define('_idiomaactual', $_SESSION['idiomaactual']);
+}
+
+
+
+switch (_idiomaactual) {
+    case 1:
+		if (is_file("includes/languages/castellano.php"))  include("includes/languages/castellano.php"); 
+		break;
+    case 3:
+		if (is_file("includes/languages/ingles.php"))  include("includes/languages/ingles.php"); 
+	
+        break;
+    case 2:
+		if (is_file("includes/languages/frances.php"))  include("includes/languages/frances.php"); 
+	
+        break;
+    case 4:
+		if (is_file("includes/languages/aleman.php"))  include("includes/languages/aleman.php"); 
+	
+}
+<!doctype html>
+
